@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://contact-manager-api-wwhr.onrender.com/api';
+const API_BASE_URL = 'https://contactservices-glk6.onrender.com';
 const fetchAPI = (endpoint, options = {}) => {
   return new Promise(async (resolve, reject) => {
     try {
