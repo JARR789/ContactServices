@@ -117,7 +117,7 @@ class App {
   async loadContacts() {
     try {
       this.showLoading(true);
-      const response = await fetch('https://contact-manager-api-wwhr.onrender.com/api/contacts');
+      const response = await fetch('https://contactservices-glk6.onrender.com');
       const data = await response.json();
       
       if (!response.ok) {
